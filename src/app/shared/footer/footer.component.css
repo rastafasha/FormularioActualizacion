@@ -1,0 +1,20 @@
+footer {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 10px;
+    margin-bottom: 0px;
+    height: 0px;
+}
+
+.credits {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    padding-top: 5px;
+}
