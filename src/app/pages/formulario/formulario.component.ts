@@ -90,7 +90,7 @@ export class FormularioComponent implements OnInit {
     this.ActualizacionService.createDirectorio(data).subscribe(
       res => {
         Swal.fire('Guardado', 'Los cambios fueron creados', 'success');
-          this.router.navigate(['https://www.svcbmf.com/directorio']);
+        window.location.href = 'https://www.svcbmf.com/directorio';
       },
       error => this.error = error
     );
